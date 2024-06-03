@@ -1,0 +1,81 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin: 0 9.5rem 0 9.5rem;
+}
+
+.menu__title {
+    margin: 2.25rem 0 0 0;
+}
+
+.menu__subtitle {
+    margin: 0 0 2.25rem 0;
+}
+
+.menu__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white);
+    text-align: center;
+}
+
+.menu__img {
+    width: 9rem;
+    height: 9rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.menu__part {
+    margin-bottom: 3.75rem;
+}
+
+.menu__partTitle {
+    margin-bottom: 1.75rem;
+}
+
+.menu__partDish {
+    margin-bottom: 2rem;
+    line-height: 2.5rem;
+    padding-left: 0;
+}
+
+.menu__partDish li {
+    list-style-type: none;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        align-items: center;
+        margin: 0 2rem 0 2rem;
+        font-weight: 800;
+    }
+    .menu__subtitle{
+        display: none;
+    }
+    .menu__img {
+        width: 4rem;
+        height: 4rem;
+        margin-bottom: 0.5rem;
+    }
+    .menu__partDish p {
+        display: none;
+    }
+    .menu__part {
+        margin-bottom: 1.5rem;
+    }
+    .menu__partTitle {
+        margin-bottom: 0;
+    }
+    
+    .menu__partDish {
+        margin-bottom: 2rem;
+        line-height: 1rem;
+        padding-left: 0;
+    }
+    .menu__partDish li {
+        line-height: 1.3rem;
+    }
+  }

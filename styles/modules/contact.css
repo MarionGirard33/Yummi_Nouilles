@@ -1,0 +1,23 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4.5rem 0 4.5rem 0;
+}
+
+.contact__text {
+    text-align: center;
+    max-width: fit-content;
+    width: 64.81rem;
+    margin: 0 0 0 0;
+}
+
+@media (max-width: 768px) {
+    .contact {
+        margin: 0.8rem 0 4.5rem 0;
+    }
+    .contact__text {
+        width: 15.5rem;
+        margin: 0.8rem 0 0 0;
+    }
+}
